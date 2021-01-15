@@ -1,4 +1,4 @@
-# se-assignment02-20-master
+# traffic-light-intersection-feature-house
 Implemented a configurable traffic light simulator using FeatureHouse2. The program will simulate an intersection that is managed by traffic lights.
 
 The variants of the simulation differ in the number of roads that merge at the intersection, whether there are pedestrian crossings present, and how the traffic lights behave.
