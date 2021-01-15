@@ -32,3 +32,15 @@ Timed : The Left/Right roads start with a 10 steps long green phase. Then the tr
 
 OnDemand : The Left/Right roads are green by default. When a vehicle queues at one of the Bottom/Top roads or a pedestrian queues at the Left/Right roads, the traffic lights
            switch to a 10 steps enduring green phase on the Bottom/Top roads, and then switches back. The Left/Right roads then need to have at least a 10 steps long green phase            before the lights can switch again.
+           
+
+Running the Simulation 
+
+The project skeleton includes a run configuration you can use to start the simulation.
+
+Once started, you can enter the following commands on the commandline:
+
+vehicle <road> Enqueue a vehicle on <road>, where road can be one of left, right, top, bottom.
+pedestrian <road> Enqueue a pedestrian on <road>, where road can be one of left, right, top, bottom.
+step Advance the simulation by one step.
+state Print the current state of the intersection.
