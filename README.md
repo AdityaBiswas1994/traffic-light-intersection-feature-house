@@ -6,6 +6,8 @@ The variants of the simulation differ in the number of roads that merge at the i
 The file model.xml contains the feature model for the project. This file must not be modified. The folder configs contains configurations for the project, that is, feature selections that define a variant of the simulation. You can activate one configuration at a time. FeatureIDE will automatically generate the sources for the currently active
 configuration. The folder features is where the actual source code for the project lives. It contains a subfolder for each feature. The implementation for each feature must be done in the respective subfolder. In the folders for the features Base and Pedestrians, you can find an abstract class Intersection that I extended with our functionality. Make sure to read the documentation for this class in the actual source code in the provided skeleton! This class is used by the class Main–the class that manages the simulation to instantiate our implementation of the traffic light simulator.
 
+Explanation of all features:
+
 Base : Contains the base functionality that is included in all variants.
 
 Roads : Note that this is an abstract feature and has no code associated with it. The subfeatures of this feature determine from which directions roads lead to the intersection.
